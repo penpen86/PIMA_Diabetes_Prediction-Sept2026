@@ -13,8 +13,8 @@ import joblib
 # for creating a folder
 import os
 
-DATA_DIR = "self_paced_courses_1_mlops/data"
-MODEL_DIR = "self_paced_courses_1_mlops/deployment/model"
+DATA_DIR = "PIMA_Diabetes_Prediction-Sep2026/PIMA_Diabetes_Prediction/data"
+MODEL_DIR = "PIMA_Diabetes_Prediction-Sep2026/PIMA_Diabetes_Prediction/deployment/model"
 
 Xtrain_path = os.path.join(DATA_DIR, "Xtrain.csv")
 Xtest_path = os.path.join(DATA_DIR, "Xtest.csv")

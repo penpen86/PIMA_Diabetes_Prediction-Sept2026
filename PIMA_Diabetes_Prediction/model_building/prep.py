@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 # Define constants for the dataset and output paths
-DATA_DIR = "PIMA_Diabetes_Prediction-Sep2026/PIMA_Diabetes_Prediction/data"
+DATA_DIR = "PIMA_Diabetes_Prediction/data"
 DATASET_PATH = os.path.join(DATA_DIR, "pima.csv")
 
 df = pd.read_csv(DATASET_PATH)

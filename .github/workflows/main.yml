@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add self_paced_courses_1_mlops/data/*.csv
+          git add PIMA_Diabetes_Prediction/data/*.csv
           git diff --cached --quiet || git commit -m "Add train/test split data [skip ci]"
           git push
 
@@ -43,6 +43,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add self_paced_courses_1_mlops/deployment/model/*.joblib
+          git add PIMA_Diabetes_Prediction/deployment/model/*.joblib
           git diff --cached --quiet || git commit -m "Add trained model [skip ci]"
           git push
